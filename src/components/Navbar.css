@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  
+}
+
+.nav {
+  margin: auto;
+  width: auto;        
+  background: #0d024d;
+  padding: 20px 28px; 
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+  position: sticky;
+  top: 0;
+  z-index: 10;
+}
+
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.nav-logo {
+  height: 60px;
+  width: 60px;
+  border-radius: 8px;
+  object-fit: cover;
+  transition: 0.3s ease;
+}
+
+.nav-logo:hover {
+  transform: scale(1.12);
+  filter: brightness(1.1);
+}
+
+.brand {
+  font-size: 3rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  color : rgb(255, 255, 255);
+  
+}
+
+.brand:hover {
+  transform: scale(1.07);
+  filter: brightness(1.2);
+}
+
+
+.nav-menu {
+  display: flex;
+  gap: 22px;
+  list-style: none;
+}
+
+
+.nav-menu li a {
+  color: rgb(255, 255, 255);
+  font-size: 1.2em;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-decoration: none;   
+}
+.nav-menu-inicio {
+
+  
+  font-size: 1.3rem;
+}
+
+.nav-menu-estudiantes {
+
+  font-size: 1.3rem;
+}
+
+.nav-menu-cursos {
+
+  font-size: 1.3rem;
+}
+
+
+.nav-menu li a:hover {
+  color: #f70101;
+  transform: scale(1.12);
+}
+
