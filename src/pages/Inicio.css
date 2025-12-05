@@ -24,7 +24,7 @@
 }
 
 .subtitulo-inicio {
-  font-size: 1rem;
+  font-size: 1.2rem;
   color: black;
   font-weight: bold;
   line-height: 1.5;
@@ -56,38 +56,3 @@
 }
 
 
-@keyframes fadeInInicio {
-  from {
-    opacity: 0;
-    transform: translateY(20px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-@keyframes tituloPop {
-  0% {
-    transform: scale(0.9);
-    opacity: 0;
-  }
-
-  100% {
-    transform: scale(1);
-    opacity: 1;
-  }
-}
-
-@keyframes fadeInImagen {
-  from {
-    opacity: 0;
-    transform: scale(0.95);
-  }
-
-  to {
-    opacity: 1;
-    transform: scale(1);
-  }
-}
