@@ -1,5 +1,5 @@
 import "./inicio.css";
-import ucvImg from "../assets/inicio.avif";  // <-- Imagen local optimizada
+import ucvImg from "../img/inicio.jpg";  
 
 export default function Inicio() {
   return (

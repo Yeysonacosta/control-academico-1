@@ -20,7 +20,7 @@ export default function Login({ onLogin }) {
   return (
     <div className="login-container">
       <div className="login-card">
-        <img src="/src/assets/logo.jpg" alt="UCV" className="logo.jpg" />
+        <img src="src/img/logo.jpg" alt="UCV" className="logo.jpg" />
 
         <div className="login-left">
 
