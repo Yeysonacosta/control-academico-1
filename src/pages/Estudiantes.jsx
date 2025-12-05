@@ -1,5 +1,5 @@
-  import TablaEstudiantes from "../components/TablaEstudiantes";
+import TablaEstudiantes from "../components/TablaEstudiantes";
 
-  export default function Estudiantes() {
-    return <TablaEstudiantes />;
-  }
+export default function Estudiantes() {
+  return <TablaEstudiantes />;
+}

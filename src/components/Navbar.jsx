@@ -3,6 +3,7 @@ import { useState } from "react";
 import "./Navbar.css";
 import logo from "src/img/UCV.png";
 
+
 export default function Navbar({ onLogout }) {
   const [open, setOpen] = useState(false);
 

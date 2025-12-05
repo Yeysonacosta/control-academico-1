@@ -66,11 +66,14 @@
 
 /* Botón Agregar / Guardar */
 .btn.add {
-  padding: 20px ;
-  margin: 2px;      /* menos alto y ancho */
-  font-size: 1rem;      /* fuente más pequeña */
-  border-radius: 10px;   
-  height: 50px;  /* borde redondeado más pequeño */
+  padding: 20px;
+  margin: 2px;
+  /* menos alto y ancho */
+  font-size: 1rem;
+  /* fuente más pequeña */
+  border-radius: 10px;
+  height: 50px;
+  /* borde redondeado más pequeño */
 }
 
 .btn.add:hover {
@@ -82,7 +85,7 @@
 .actions {
   display: inline-flex;
   gap: 14px;
-    
+
 }
 
 .btn-edit {
@@ -125,7 +128,7 @@
   margin-top: 10px;
   overflow: hidden;
   border-radius: 15px;
-  
+
 }
 
 .tabla thead {
@@ -158,37 +161,46 @@
 }
 
 body {
-  background: #F2F2F2; /* gris claro de fondo */
-  color: #233559;      /* texto principal en azul institucional */
+  background: #F2F2F2;
+  /* gris claro de fondo */
+  color: #233559;
+  /* texto principal en azul institucional */
 }
 
 .box {
-  background: #ffffff;   /* fondo blanco para módulos */
-  border: 2px solid #114ed1; /* borde rojo UCV para destacar */
+  background: #ffffff;
+  /* fondo blanco para módulos */
+  border: 2px solid #114ed1;
+  /* borde rojo UCV para destacar */
 }
 
 .btn.add {
-  background: #233559;   /* azul UCV */
+  background: #233559;
+  /* azul UCV */
   color: white;
 }
 
 .btn-add:hover {
-  background: #02BFF2;   /* acento turquesa al pasar el mouse */
+  background: #02BFF2;
+  /* acento turquesa al pasar el mouse */
 }
 
 .tabla thead {
-  background: #e20511;   /* rojo UCV en encabezados */
+  background: #e20511;
+  /* rojo UCV en encabezados */
   color: white;
 }
+
 .footer {
   width: 100%;
-  background: #071D49; /* Azul UCV */
+  background: #071D49;
+  /* Azul UCV */
   color: white;
   padding: 5px 0;
   margin-top: 10px;
   text-align: center;
   border-radius: 1rem;
- 
+
 }
 
 .footer-content p {

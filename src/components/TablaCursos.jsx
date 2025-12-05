@@ -3,6 +3,7 @@ import { useState } from "react";
 export default function TablaCursos() {
   const [lista, setLista] = useState([
   
+    
   ]);
 
   const [buscar, setBuscar] = useState("");
