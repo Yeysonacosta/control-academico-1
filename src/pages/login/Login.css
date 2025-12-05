@@ -1,0 +1,201 @@
+
+/* PALETA UCV */
+:root {
+  --ucv-azul: #071D49;
+  --ucv-rojo: #E20613;
+  --ucv-gris: #F0F2F5;
+  --ucv-texto: #233559;
+}
+
+/* ==================== */
+/*  CONTENEDOR GENERAL  */
+/* ==================== */
+.login-container {
+  width: 100%;
+  height: 100vh;
+  background:   rgb(2, 37, 90);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+  cursor: default; /* cursor por defecto */
+}
+
+/* ==================== */
+/*     TARJETA LOGIN     */
+/* ==================== */
+.login-card {
+  width: 550px;
+  background: white;
+  padding: 35px;
+  border-radius: 16px;
+
+  /* 🔥 BORDE COMBINADO UCV */
+  border: 3.5px solid;
+  border-image: linear-gradient(45deg, var(--ucv-azul), var(--ucv-rojo)) 1;
+
+  box-shadow: 0 6px 25px rgba(0,0,0,0.15);
+  text-align: center;
+
+  transition: 0.3s ease-in-out;
+}
+
+/* Hover al card */
+.login-card:hover {
+  transform: scale(1.02);
+  box-shadow: 0 10px 35px rgba(0, 0, 0, 0.22);
+  cursor: pointer; /* cursor tipo mano */
+}
+
+/* ==================== */
+/*         LOGO         */
+/* ==================== */
+.login-card img {
+  width: 400px;
+  height: auto;
+  margin-bottom: 10px;
+  user-select: none;
+}
+
+/* ==================== */
+/*       TÍTULOS        */
+/* ==================== */
+.login-right h2 {
+  font-size: 30px;
+  color: var(--ucv-azul);
+  margin: 0;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  font-weight: 700;
+}
+
+.login-right h3 {
+  font-size: 17px;
+  color: #444;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+/* ==================== */
+/*        INPUTS        */
+/* ==================== */
+label {
+  display: block;
+  text-align: left;
+  font-size: 14px;
+  color: var(--ucv-texto);
+  font-weight: 600;
+  margin-bottom: 6px;
+  cursor: pointer; /* cambiar cursor */
+}
+
+input {
+  width: 100%;
+  padding: 13px;
+  border-radius: 10px;
+  border: 1.8px solid #d3d3d3;
+  font-size: 15px;
+  outline: none;
+  margin-bottom: 15px;
+  transition: 0.3s ease;
+  cursor: text; /* cursor de escribir */
+}
+
+/* 🔥 BORDE AZUL CON ROJO AL FOCO */
+input:focus {
+  border: 2px solid transparent;
+  background-clip: padding-box;
+  border-image: linear-gradient(45deg, var(--ucv-azul), var(--ucv-rojo)) 1;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.17);
+}
+html, body {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* ==================== */
+/*        ERROR         */
+/* ==================== */
+.error {
+  color: var(--ucv-rojo);
+  font-size: 14px;
+  margin-top: -5px;
+  margin-bottom: 10px;
+}
+
+/* ==================== */
+/*        BOTÓN         */
+/* ==================== */
+.btn-login {
+  width: 100%;
+  padding: 14px;
+  background: var(--ucv-rojo);
+  border: none;
+
+  /* 🔥 BORDE ROJO + AZUL */
+  border-radius: 10px;
+  border: 2.5px solid transparent;
+  border-image: linear-gradient(90deg, var(--ucv-rojo), var(--ucv-azul)) 1;
+
+  color: white;
+  font-size: 17px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s ease;
+  margin-top: 10px;
+}
+
+/* Hover bonito del botón */
+.btn-login:hover {
+  background: #C10511;
+  transform: scale(1.05);
+}
+
+/* ============================== */
+/*      BOTÓN CERRAR SESIÓN      */
+/* ============================== */
+
+.btn-logout {
+  padding: 10px 18px;
+  font-size: 15px;
+  font-weight: 600;
+  border-radius: 10px;
+
+  /* Colores UCV */
+  background: var(--ucv-azul);
+  color: white;
+
+  border: 2px solid transparent;
+  border-image: linear-gradient(123deg, var(--ucv-azul), var(--ucv-rojo)) 1;
+
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+
+  margin-left: 10px;
+}
+
+/* Hover */
+.btn-logout:hover {
+  background: var(--ucv-rojo);
+  transform: scale(1.08);
+  color: white;
+}
+
+/* Cuando se presiona */
+.btn-logout:active {
+  transform: scale(0.97);
+}
+
+/* En menú responsive (modo celular) */
+.nav-menu.open .btn-logout {
+  width: 90%;
+  margin: 12px auto;
+  display: block;
+  text-align: center;
+}
+
+
